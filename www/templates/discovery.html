@@ -1,0 +1,35 @@
+<ion-view title="Discovery Settings" class='title_hack cariaman'>
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left"class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="padding">
+	<ul class="list">
+
+  <li class="item item-toggle">
+     Discover Me
+     <label class="toggle toggle-positive">
+       <input type="checkbox">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+     </label>
+  </li>
+  <li class="item item-toggle">
+  		Distance : {{distanceRange}} km 
+  </li>
+  <div class="item range range-positive">
+    <i class="icon ion-home"></i>
+    <input type="range" name="volume" min="0" max="200" ng-model="distanceRange">
+    <i class="icon ion-planet"></i>
+  </div>
+  <a class="item item-icon-right" href="#/app/musicPreferences">    
+          Music Preferences
+          <i class="icon ion-gear-b"></i>
+		  </a> 
+	<a class="item item-icon-right" href="#/app/partnerPreferences">    
+          Partner Preferences
+          <i class="icon ion-gear-b"></i>
+	</a> 
+</ul>
+	</ion-content>
+</ion-view>

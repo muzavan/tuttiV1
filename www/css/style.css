@@ -1,1 +1,8 @@
-/* Empty. Add your own CSS if you like */
+/* Styles go here */
+.icon {
+	display: inline-block;
+}
+
+i.icon.ion-ios7-telephone-outline {
+	font-size: 100px;
+}

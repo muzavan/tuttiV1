@@ -1,7 +1,7 @@
 {
-  "name": "ionictutti",
-  "version": "1.1.1",
-  "description": "IonicTutti: An Ionic project",
+  "name": "hackathonfinal",
+  "version": "1.0.0",
+  "description": "hackathonfinal: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
@@ -20,7 +20,12 @@
     "cordova-plugin-whitelist",
     "cordova-plugin-splashscreen",
     "cordova-plugin-statusbar",
-    "ionic-plugin-keyboard"
+    "ionic-plugin-keyboard",
+    "com.ionic.keyboard",
+    "cordova-plugin-inappbrowser",
+    "org.apache.cordova.geolocation"
   ],
-  "cordovaPlatforms": []
+  "cordovaPlatforms": [
+    "android"
+  ]
 }
